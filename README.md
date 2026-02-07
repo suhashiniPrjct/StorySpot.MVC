@@ -5,7 +5,8 @@ ASP.NET Core MVC application built on .NET 8 for managing and browsing books.
 This is a **standalone MVC application** with a dedicated **data access layer** using **Entity Framework Core (Code First)**, following clean architectural practices expected in production applications.
 
 ## Key Features
-- Identity-based authentication (User / Admin) 🔐
+- ASP.NET Core Identity API for User management system  🔐
+- In-build Cookie authentication
 - Role-based authorization
 - Book management (CRUD)
 - Repository & Unit of Work patterns
@@ -14,7 +15,7 @@ This is a **standalone MVC application** with a dedicated **data access layer** 
 
 ## Architecture
 - Browser → MVC Application → Database 🧱
-- Authentication and authorization via ASP.NET Core Identity
+- User Management system via ASP.NET Core Identity
 - Data access encapsulated in a dedicated data layer
 - Clear separation of concerns for maintainability
 
