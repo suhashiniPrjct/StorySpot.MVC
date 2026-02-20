@@ -23,6 +23,8 @@ This is a **standalone MVC application** with a dedicated **data access layer** 
 - ASP.NET Core MVC 8
 - Entity Framework Core
 - ASP.NET Core Identity
+## Code repository
+[https://github.com/suhashiniPrjct/NewBusinessWeb.git]
 
 ## Best Practices
 - MVC pattern for UI and controller separation
